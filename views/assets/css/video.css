@@ -1,0 +1,23 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+    }
+/*浮動按鈕*/
+.J_goTop {
+    z-index: 9;
+    display: none;
+    position: fixed;
+    right: 20px;
+    bottom: 20%;    
+    padding: 10px 15px;    
+    font-size: 20px;
+    background: #777;
+    color: white;
+    cursor: pointer;
+        line-height:50px;
+    border-radius:50%;
+    transition:all 0.5s;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
